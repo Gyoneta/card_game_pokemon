@@ -1967,6 +1967,8 @@ function play() {
   situationHp = false
   document.getElementById('nextBtn').disabled = false
   document.getElementById('playBtn').disabled = true
+
+  // Este é um comentario do projeto - Bucuse ...
 }
 
 function nextBattle() {
