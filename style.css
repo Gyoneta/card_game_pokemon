@@ -1,0 +1,64 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  min-height: 400px;
+  background-image: url('');
+  background-color: #111;
+  background-size: 30%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+h1 {
+  color: white;
+}
+
+.options {
+  position: relative;
+  text-align: center;
+}
+
+.playerBorder {
+  position: relative;
+  bottom: 880px;
+  max-height: 213px;
+  max-width: 150px;
+  left: 0px;
+  z-index: 1;
+}
+
+.machineBorder {
+  position: relative;
+  bottom: 790px;
+  max-height: 213px;
+  max-width: 150px;
+  left: 0px;
+  z-index: 1;
+}
+.cardCase {
+  position: relative;
+  top: 20px;
+  left: 0px;
+  z-index: 2;
+  max-width: 140px;
+  max-height: 140px;
+}
+
+#options {
+  z-index: 2;
+}
